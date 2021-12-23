@@ -75,13 +75,13 @@ nvm install --lts
 
 # Output
 Installing latest LTS version.
-Downloading and installing node v10.16.3...
-Downloading https://nodejs.org/dist/v10.16.3/node-v10.16.3-darwin-x64.tar.xz...
+Downloading and installing node v16.x...
+Downloading https://nodejs.org/dist/v10.16.3/node-v16.x-darwin-x64.tar.xz...
 ######################################################################## 100.0%
 Computing checksum with sha256sum
 Checksums matched!
-Now using node v10.16.3 (npm v6.9.0)
-Creating default alias: default -> lts/* (-> v10.16.3)
+Now using node v16.x (npm v8.9.0)
+Creating default alias: default -> lts/* (-> v16.x)
 <br>
 
 Verify it worked, and that the version is correct:
@@ -90,6 +90,6 @@ Verify it worked, and that the version is correct:
 node --version
 ```
 
-# => v10.16.3
+# => v16.x
 which node
-# => /Users/joe/.nvm/versions/node/v10.16.3/bin/node
+# => /Users/joe/.nvm/versions/node/v16.x/bin/node
