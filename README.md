@@ -21,7 +21,7 @@ The basic process is as follows:
 Using curl, or wget, download the installation script. In the URL below make sure you replace v0.35.0 with the latest version of nvm.
 
 ```
- curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
 
 It's not a bad idea to open the install script and inspect its contents given that you just downloaded it from the Internet.
